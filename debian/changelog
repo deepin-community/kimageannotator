@@ -1,0 +1,106 @@
+kimageannotator (0.5.2-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Remove constraints unnecessary since buster:
+    + Build-Depends: Drop versioned constraint on cmake.
+
+  [ Boyuan Yang ]
+  * debian/control: Bump Standards-Version to 4.6.0.
+  * debian/libkimageannotator0.shlibs: Tighten version to latest.
+  * debian/watch: Fix uscan grammar.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 10 Nov 2021 09:09:38 -0500
+
+kimageannotator (0.5.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Mon, 13 Sep 2021 22:51:16 -0400
+
+kimageannotator (0.5.1-1) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 17 Aug 2021 14:25:15 -0400
+
+kimageannotator (0.5.1-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * debian/control: Bump version requirement of kcolorpicker.
+
+ -- Boyuan Yang <byang@debian.org>  Mon, 16 Aug 2021 23:44:06 -0400
+
+kimageannotator (0.4.2-1~exp1) experimental; urgency=medium
+
+  * New upstream release.
+  * debian/patches: Drop patches, merged upstream.
+  * debian/control: Bump version requirement of kcolorpicker.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 03 Apr 2021 10:32:38 -0400
+
+kimageannotator (0.4.0-2) unstable; urgency=high
+
+  * debian/patches: Add patch 0001 from upstream to properly
+    handle library SONAME. (Closes: #977649)
+  * debian/control: Bump libkcolorpicker version requirement
+    to 0.1.5 to properly handle SONAME issue.
+
+ -- Boyuan Yang <byang@debian.org>  Sat, 26 Dec 2020 22:29:08 -0500
+
+kimageannotator (0.4.0-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 17 Dec 2020 14:36:06 -0500
+
+kimageannotator (0.3.2-2) unstable; urgency=medium
+
+  * debian/: Fix some lintian warnings.
+  * debian/patches/0001: Add patch from upstream trunk to make
+    the zh_CN translation actually working.
+
+ -- Boyuan Yang <byang@debian.org>  Mon, 12 Oct 2020 13:19:39 -0400
+
+kimageannotator (0.3.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 04 Aug 2020 22:10:07 -0400
+
+kimageannotator (0.3.1-5) unstable; urgency=high
+
+  * Let libkimageannotator-common to properly Breaks+Replaces
+    older version of libkimageannotator0. (Closes: #964464)
+
+ -- Boyuan Yang <byang@debian.org>  Tue, 07 Jul 2020 17:03:47 -0400
+
+kimageannotator (0.3.1-4) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Boyuan Yang <byang@debian.org>  Mon, 06 Jul 2020 10:41:40 -0400
+
+kimageannotator (0.3.1-4~exp1) experimental; urgency=medium
+
+  * Split translation files into separeate libkimageannotator-common
+    package.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 28 Jun 2020 16:13:20 -0400
+
+kimageannotator (0.3.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Sun, 28 Jun 2020 16:07:53 -0400
+
+kimageannotator (0.3.0.20200624-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 24 Jun 2020 13:53:10 -0400
+
+kimageannotator (0.2.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #956322)
+
+ -- Boyuan Yang <byang@debian.org>  Thu, 09 Apr 2020 16:41:00 -0400
